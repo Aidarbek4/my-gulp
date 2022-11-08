@@ -1,11 +1,7 @@
 {
   "name": "test-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
   "author": "Aidarbek",
   "license": "ISC",
   "devDependencies": {
@@ -16,11 +12,11 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.56.0"
+    "gulp-uglify-es": "^3.0.0"
   },
   "dependencies": {
     "del": "^7.0.0"
